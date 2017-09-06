@@ -1,6 +1,5 @@
 {
   "id": "mesos-marathon-demo",
-  "instances": 1,
   "acceptedResourceRoles": [
     "slave_public"
   ],
