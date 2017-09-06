@@ -1,5 +1,6 @@
 {
   "id": "mesos-marathon-demo",
+  "cpus": 0.25,
   "acceptedResourceRoles": [
     "slave_public"
   ],
