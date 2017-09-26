@@ -1,18 +1,13 @@
 {
   "id": "mesos-marathon-demo",
-  "cpus": 0.25,
   "container": {
     "type": "DOCKER",
     "docker": {
       "image": "",
       "network": "BRIDGE",
       "portMappings": [
-        { "containerPort": 80, "hostPort": 0 }
+        { "containerPort": 8082, "hostPort": 0 }
       ]
     }
-  },  
-  "labels":{
-    "HAPROXY_GROUP":"external"
   }
 }
-
