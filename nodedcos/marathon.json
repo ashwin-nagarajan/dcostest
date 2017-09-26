@@ -1,5 +1,5 @@
 {
-  "id": "mesos-marathon-demo",
+  "id": "marathon-demo",
   "cpus": 1,
     "acceptedResourceRoles": [
            "*",
