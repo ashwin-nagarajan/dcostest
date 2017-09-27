@@ -8,7 +8,7 @@
   "container": {
     "type": "DOCKER",
     "docker": {
-      "image": "406498391815.dkr.ecr.eu-west-1.amazonaws.com/scwp-dcos-test:39679ccd72b6e5f94f1d32f8fb5cc03d05e3270d",
+      "image": "",
       "network": "BRIDGE",
       "portMappings": [
         { "containerPort": 80, "hostPort": 0,"servicePort": 10000}
