@@ -1,10 +1,7 @@
 {
   "id": "marathon-demo",
   "cpus": 1,
-    "acceptedResourceRoles": [
-           "*",
-          "slave_public"
-    ],
+"constraints": [["hostname", "UNIQUE"]],
   "container": {
     "type": "DOCKER",
     "docker": {
