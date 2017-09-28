@@ -2,13 +2,16 @@
   "id": "marathon-demo",
   "cpus": 1,
 "constraints": [["hostname", "UNIQUE"]],
+    "acceptedResourceRoles": [
+          "slave_public"
+    ],
   "container": {
     "type": "DOCKER",
     "docker": {
       "image": "",
       "network": "BRIDGE",
       "portMappings": [
-        { "containerPort": 80, "hostPort": 0,"servicePort": 10000}
+        { "containerPort": 80, "hostPort":0}
       ]
     }
   },"uris": [
