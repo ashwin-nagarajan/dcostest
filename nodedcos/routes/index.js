@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express for the pipeline:4.0 ' });
+  res.render('index', { title: 'Express for the pipeline:5.0 ' });
 });
 
 module.exports = router;
